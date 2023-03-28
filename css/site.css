@@ -1,0 +1,45 @@
+/* Sticky Footer CSS */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    margin-top: .5rem;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+/* END Sticky Footer CSS */
+
+.bgimage {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/GridBG.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* font-family: 'Vast Shadow', cursive; */
+
+.heroText {
+    font-family: 'Londrina Shadow', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(195, 255, 0);
+
+}
+
+.minHeight {
+    min-height: 80vh;
+
+}
